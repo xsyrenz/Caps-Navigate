@@ -7,13 +7,13 @@ SetCapsLockState, AlwaysOff
 CapsLock::Send, ,
 
 ; Caps Lock + J = стрелка влево
-CapsLock & j::Send, {Left}
+CapsLock & j::Send, {Blind}{Left}
 
 ; Caps Lock + K = стрелка вниз
-CapsLock & k::Send, {Down}
+CapsLock & k::Send, {Blind}{Down}
 
 ; Caps Lock + I = стрелка вверх
-CapsLock & i::Send, {Up}
+CapsLock & i::Send, {Blind}{Up}
 
 ; Caps Lock + L = стрелка вправо
-CapsLock & l::Send, {Right}
+CapsLock & l::Send, {Blind}{Right}
